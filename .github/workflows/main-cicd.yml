@@ -106,7 +106,7 @@ jobs:
       - name: ⬇️ Checkout Kode
         uses: actions/checkout@v4
 
-      # Jika ada langkah build sebelum deploy (misalnya, optimasi aset)
+      # Jika ada langkah build sebelum deploy (misalnya, optimasii aset)
       # - name: 🔨 Build Halaman Web (jika perlu)
       #   run: npm install && npm run build-static # Contoh
 
