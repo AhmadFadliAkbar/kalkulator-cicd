@@ -2,8 +2,8 @@
 FROM nginx:alpine 
 # Salin file HTML, CSS, dan JavaScript ke direktori default Nginx 
 COPY index.html /usr/share/nginx/html/ 
-COPY style.css /usr/share/nginx/html/ 
-COPY script.js /usr/share/nginx/html/ 
+COPY style.css /usr/share/nginx/css/ 
+COPY script.js /usr/share/nginx/js/ 
 # Jika ada direktori 'tests' yang ingin ikut disajikan (opsional) 
 # COPY tests/ /usr/share/nginx/html/tests/ 
 # Expose port 80 
